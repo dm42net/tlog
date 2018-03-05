@@ -1,4 +1,10 @@
 # tlog
+
+### Demo Available
+http://tlog.dm42.net/demo
+Invite Token: demo
+Make sure to check your spam folder for invite after filling out the form.
+
 ## New Structured Notetaking Tool
 
 Over the years we’ve tried everything for taking notes – and seem to always end up back to using either a plain text document or even pencil and paper. All the tools like Evernote and Trello and the plethora of others, while feature rich, lack the basic simplicity of jotting things down. Over the years we’ve stretched and twisted various WIKI’s and even used spreadsheets to try to come up with the right mix of structured data, simplicity, and searchability.
