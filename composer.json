@@ -1,0 +1,30 @@
+{
+    "name": "dm42/structlogger",
+    "description": "Freeform logger with structured data",
+    "license": "GPLv2 or higher",
+    "authors": [
+        {
+            "name": "Matthew Dent",
+            "email": "dentm42@dm42.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "*",
+        "slim/extras": "*",
+        "slim/middleware": "*",
+        "monolog/monolog": "*",
+        "j4mie/idiorm": "*",
+        "davidepastore/slim-validation": "^0.1.1",
+	"twig/twig": "*",
+        "tuupola/slim-basic-auth": "^2.2",
+        "defuse/php-encryption": "^2.0",
+        "avbdr/php-bootstrap-form": "^4.0",
+        "paragonie/password_lock": "^2.0",
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    }
+
+}

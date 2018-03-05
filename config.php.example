@@ -1,0 +1,32 @@
+<?php
+
+date_default_timezone_set("EST");
+
+define('URLHOST','https://my.web.host');
+define('URLPATHPREFIX',"/path");
+define('WEBURL',URLHOST.URLPATHPREFIX);
+define('HTMLURL',WEBURL."/html");
+define('JSRESOURCEURL',WEBURL."/resources");
+define('CSSRESOURCEURL',WEBURL."/resources");
+
+define('PW_KEY_FILE',"./pw_keys.txt");
+
+define('LOG_FILE','/path/to/error/log'); //directory must be writable
+define('DEBUG_LOG','/path/to/error/log'); //directory must be writable
+define('DEBUG',false);
+
+define('SessionLifetimeSecs',60*60*2); //2 hours
+
+define('MAILER','PHPMAILER');  // Use PHP-Mailer for Email
+//define('MAILER','DM42API'); // Use DM42Net Email Api for EMAIL (see https://www.dm42.net/products-and-services
+
+define('DM42APIAccessKey','MyAccessKey'); //access key for DM42 Email Service
+define('DM42APISecretKey','MySecret'); //access secret for DM42 Email Service
+define('EmailAddress','me@here.com'); //Address to use on outgoing emails
+
+define('MYSQLUser','mysqluser');
+define('MYSQLPassword','mysqlpass');
+define('MYSQLDB','mysqldb');
+define('MYSQLServer','mysql:sock=/var/run/mysqld/mysqld.sock');
+
+define('INVITETOKEN','keyword');
