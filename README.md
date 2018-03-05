@@ -1,5 +1,5 @@
 # tlog
-===New Structured Notetaking Tool===
+##New Structured Notetaking Tool
 
 Over the years we’ve tried everything for taking notes – and seem to always end up back to using either a plain text document or even pencil and paper. All the tools like Evernote and Trello and the plethora of others, while feature rich, lack the basic simplicity of jotting things down. Over the years we’ve stretched and twisted various WIKI’s and even used spreadsheets to try to come up with the right mix of structured data, simplicity, and searchability.
 
@@ -9,7 +9,7 @@ After some 20 years of playing with various solutions…. we now think we have s
 
 This post gives some basic instructions on how it works.
 
-===The Basic Concept===
+##The Basic Concept
 
 Remember in elementary school when you were taught to take notes on 3×5 index cards – one fact or idea or detail per card?  Then, you could easily re-order your cards as you were writing your paper.
 
@@ -17,7 +17,7 @@ That is the basic idea behind this tool.  It allows you to take short, simple no
 
 The twist is adding searchable tags that create an automatic index of your notes.
 
-===TAGS===
+##TAGS
 
 We’re all familiar with the “hashtag.”  Besides being useful as a way to make snarky comments about things, the “hashtag” is a useful tool to call attention to what’s important in a post or a comment and to cross reference items related to the same thing . . . mostly.The downside is that the symbol # doesn’t give any information about the significance of what follows it.  And this becomes a problem when trying to search.  Do a search on #1984 and your likely to not only get references to the book by George Orwell, but you will find references to events that happened in the year 1984.  With a simple search, there’s no way to know ahead of time what you will get.Now, imagine that references to the book were tagged   bk:1984  (bk: being a tag indicating that what follows is a book) and references to an event in that year was tagged  yr:1984 or dt:1984-07-04  (yr: being a tag for “year” or dt: being a tag for a “date”).Now suddenly things become easier to search and index.  If you want to find all the events that happened in 1984, you can search for “yr:1984”  or do a wildcard search “dt:1984*”.There are a million ways to use such tagging.For example, in the organizational system GETTING THINGS DONE(tm), David Allen suggests creating todo lists based on the context in which a task can be done.  So you may have one list for “errands”, another for “home,” and another for “office”.With our tagged note-taking system – adding a task to one of these lists is as easy as including “list:office” or “list:errands” somewhere in the note.  Is there some reason you want it to appear on a couple of different lists?  Perhaps “calls” and “office”, just include both.Want to group everything related to your “birthday party project” together?  Just tag everything with “project:birthdayparty”.Our note taking system will allow an unlimited number of tags and allows you to search them in any combination.  For example, when you want to sit down and make phone calls for the birthday party, you would simply search for “list:calls project:birthdayparty”. You can even sort based on the value of the tag.  So if you were working on a history project and you included a date tag for each event – for example – “Fall of the Berlin wall dt:1989-11-09,”  and “Fall of the building:WTC in place:NYC dt:2001-09-11” along with other dates, you could do something like “<~dt:%” and it would search for all your notes containing the “dt:” tag and sort them in ascending order.  You could sort them in descending order instead by searching for “>~dt:%”.Excluding items is as easy as putting a dash (“-“) before the search term.  So if you wanted to exclude all calls related to the birthdayparty project from your “calls” task list, you would simply search for “list:calls -project:birthdayparty”.In addition to creating a custom tag, the system also recognizes the “#” mark as a generic tag marker as well.
 
@@ -41,7 +41,7 @@ Once you have selected which log to update, you can just type your notes in the 
 
 Remember to keep your notes short – one thought or idea per note – and tag items you may want to cross reference in the future.
 
-===Prefix/Suffix===
+##Prefix/Suffix
 
 Retyping the same tags over and over when you’re taking notes on the same things would be tedious and annoying.  That’s why there is a “prefix” and “suffix” field on the notetaking screen.  When you click the “Add” button, whatever was in the “prefix” and “suffix” fields will be carried over for your next note.
 
@@ -49,7 +49,7 @@ If you’re taking notes for a book report on George Orwell’s 1984, for exampl
 
 Tags only have meaning to you.  So you could use “bk:” instead of “book:” and “char:” instead of “character:” – or even just use single letters!  The trick is to be consistent.
 
-===Multiple Notes===
+##Multiple Notes
 
 You can also enter multiple notes that all have the same prefix and suffix without clicking “Add” between each note.
 
@@ -59,7 +59,7 @@ If you’ve added a series of notes separated by three dashes on a line by thems
 
 This is a great feature to use if you don’t have online access!  Simply create a simple text document and take all your notes while you’re offline – separating each note with a line containing only three dashes.  When you can get online, you simply need to cut and paste the contents of your document into the add note screen and click “Add”.  All your notes will be added – and if there is anything in the Prefix or Suffix fields, that will also be added to each note!
 
-===Searching for Entries===
+##Searching for Entries
 
 Fuller documentation on advanced search functionality is still under development.
 
@@ -75,11 +75,11 @@ When using a wildcard search, include “%” in the value to represent zero or 
 
 NOTE: Currently there is no “full text” searching available.  It is only possible to search for tagged items.  Full Text searching is being considered as part of future releases.
 
-===Multiuser===
+##Multiuser
 
 Documentation on the multiuser functionality is still under development.
 
-===Installation===
+##Installation
 
 1) Clone the git repository & install application dependencies using composer
 ```
