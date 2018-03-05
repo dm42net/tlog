@@ -1,7 +1,7 @@
 # tlog
 
 ### Demo Available
-http://tlog.dm42.net/demo
+http://tlog.dm42.net/demo/html
 
 Invite Token: `demo`
 
