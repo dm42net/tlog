@@ -2,7 +2,9 @@
 
 ### Demo Available
 http://tlog.dm42.net/demo
-Invite Token: demo
+
+Invite Token: `demo`
+
 Make sure to check your spam folder for invite after filling out the form.
 
 ## New Structured Notetaking Tool
